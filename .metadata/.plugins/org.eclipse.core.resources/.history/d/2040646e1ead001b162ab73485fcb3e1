@@ -1,0 +1,6 @@
+
+public class InstructorManager extends UserManager{
+	public void createClass(Instructor instructor) {
+		System.out.println(instructor.firstName +"tarafindan ders yaratildi.");
+	}
+}
